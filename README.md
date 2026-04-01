@@ -49,6 +49,24 @@ Clicking **Edit Invoice** or **Create Invoice** opens the invoice form pre-popul
 
 <img src="Scrrenshots/p-1.3.png"/>
 
+#### 4.1 Create Line — Auto-Population on Product Selection
+
+Clicking **Create Line** opens a blank line form with fields for Product, Description, Unit Selling Price, Quantity, and Line Total. When the user selects a **Product** from the dropdown (e.g., Ultra Power Server 2000, DG650-60 Green Rack Server, License), the following fields are automatically populated:
+
+<img src="Scrrenshots/p-1.17.png"/>
+
+<img src="Scrrenshots/p-1.17.1.png"/>
+
+- **Description** — auto-filled based on selected product
+- **Unit Selling Price** — auto-filled with the product's price (e.g., $2,000.00)
+
+<img src="Scrrenshots/p-1.17.2.png"/>
+
+When the user enters the **Quantity**, the **Line Total** is automatically calculated:
+> Quantity × Unit Selling Price = Line Total (e.g., 4 × $2,000.00 = $8,000.00)
+
+<img src="Scrrenshots/p-1.17.3.png"/>
+
 ---
 
 ### 5. Sales Region — Custom DFF Field with Live LOV
